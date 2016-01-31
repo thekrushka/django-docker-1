@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu:precise
 MAINTAINER Ken Cochrane "kencochrane@gmail.com"
 RUN apt-get -qq update
 RUN apt-get install -y python-dev python-setuptools supervisor git-core
